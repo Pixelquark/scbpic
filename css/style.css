@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: Roboto;
 }
+/* Navigation Menu */
 .nav-menu{
 	display: flex;
 	background: black;
@@ -54,4 +55,27 @@
 	background: #946BAA;
 	height: 100%;
 	transition: background-color .5s ease;
+}
+/* Wrapper */
+.wrapper{
+	display: block;
+	background: red;
+	justify-content: center;
+	align-content: center;
+	margin: 10px 10%;
+	width: 80%;
+	height: 100%;
+}
+.photo-container{
+	display: block;
+	background: blue;
+	width: 100%;
+	max-height: 250px;
+	margin: 10px 0;
+}
+.photo-container>img{
+	display: inline-flex;
+	height: 250px;
+	width: 300px;
+	margin: 0 5px;
 }
