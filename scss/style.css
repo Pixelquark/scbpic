@@ -51,8 +51,19 @@ body, html {
 .nav-menu > ul > li > a:active {
   color: white; }
 
-.nav-menu > ul > li:hover {
+/* Hovers on navigation menu */
+#github:hover {
   background: #946BAA;
+  height: 100%;
+  transition: background-color .5s ease; }
+
+#home:hover {
+  background: #EF6F6C;
+  height: 100%;
+  transition: background-color .5s ease; }
+
+#about:hover {
+  background: #4ECDC4;
   height: 100%;
   transition: background-color .5s ease; }
 
@@ -66,9 +77,13 @@ body, html {
   width: 100%;
   height: 100%; }
 
+/* Photo Container */
 .photo-container {
-  display: flex; }
+  display: flex;
+  width: 100%;
+  height: 100%; }
 
+/* Photo Div */
 .photo {
   display: flex;
   justify-content: center;
